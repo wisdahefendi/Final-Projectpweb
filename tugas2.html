@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pencarian</title>
+	<link rel="stylesheet" type="text/css" href="tugasstylr.css">
+	<script type="text/javascript" src="tugass.js"></script>
+</head>
+<body  background="colorful-memphis-design-background-vector_53876-81744 - Copy.jpg">
+	<header>
+		<h1 class="judul">BLOG BEBAS</h1>
+		<p class="deskripsi">Blog dengan materi</p>
+	</header>
+
+	<div class="wrap">
+		<nav class="menu">
+			<center>
+			<ul>
+				<li>
+					<a href="tugas.html">Registrasi</a>
+				</li>
+				<li>
+					<a href="home.php">LOGIN</a>
+				</li>
+				<li>
+					<a href="tugas1.html">MATERI KULIAH</a>
+				</li>
+				<li>
+					<a href="tugas2.html">PENCARIAN</a>
+				</li>
+				<li>
+					<a href="tugas4.php">DATA DIRI ANDA</a>
+				</li>
+			</ul>
+		</nav>
+		</center>
+		</nav>
+	</div>	
+	<div class="sidebar1">
+		<center>
+		<img src="images.jpg">
+
+	<script>
+	function cari() {
+	var kata = document.formcari.keyword.value;
+	var hasil= "http://www.google.com/search?q=" + kata ;
+	window.open(hasil, 'google', config='height=500, width=750, scrollbars=yes location=yes') 
+	}
+	</script>
+	
+	<form name="formcari" onSubmit="cari()">Pencarian:
+	<input name="keyword" size="40" type="text">
+	<input type="submit" value="Cari">
+	</form> 
+		</center>
+	</div>
+	</div>
+	<div class="footer">
+
+			<font color="white">copy@right wisdahefendi-1800018130</font>
+		</div>
+	
+	
+
+</body>
+</html>
